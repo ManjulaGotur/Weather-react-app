@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.weatherapp {
+    background-image: url('http://www.wallpaperbetter.com/wallpaper/269/951/640/beautiful-morning-scene-1080P-wallpaper.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.location {
+    text-align: right;
+    padding: 50px 150px 0px 0px;
+    color: #fff;
+}
+
+.location h3,.location h5 {
+    margin: 0;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    margin-top: 80px;
+}
+
+.temp_information h2{
+    font-size: 60px;
+    color: #fff;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    height: 40px;
+    width: 400px;
+}
+
+.search button {
+    border: 0;
+    background-color: rgb(12, 66, 165);
+    color: white;
+    font-size: 18px;
+    padding: 0px 30px;
+
+}
