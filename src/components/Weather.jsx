@@ -29,8 +29,8 @@ const Weather = () => {
       <div className="section1">
         <section className="weatherapp">
           <div className="location">
-            <h3 id="city" style={{ fontSize: '50px' }}>{cityName}</h3>
-            <h5 id="country" style={{ fontSize: '36px' }}>{countryName}</h5>
+            <h3 id="city" style={{ fontSize: '50px' }}> CityName{cityName}</h3>
+            <h5 id="country" style={{ fontSize: '36px' }}>Country{countryName}</h5>
           </div>
 
           <div className="information">

@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 }
@@ -7,39 +8,41 @@ body {
     height: 100vh;
     background-position: center;
     background-size: cover;
-
 }
 
 .location {
     text-align: right;
-    padding: 50px 150px 0px 0px;
+    padding: 20px 10px;
     color: #fff;
 }
 
-.location h3,.location h5 {
+.location h3,
+.location h5 {
     margin: 0;
 }
 
 .information {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 150px;
-    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
 }
 
-.temp_information h2{
-    font-size: 60px;
+.temp_information h2 {
+    font-size: 40px;
     color: #fff;
 }
 
 .search {
     display: flex;
     justify-content: center;
+    padding: 20px 10px;
 }
 
 .search input {
     height: 40px;
-    width: 400px;
+    width: 80%;
+    max-width: 400px; 
 }
 
 .search button {
@@ -47,6 +50,27 @@ body {
     background-color: rgb(12, 66, 165);
     color: white;
     font-size: 18px;
-    padding: 0px 30px;
+    padding: 0px 20px;
+}
 
+
+@media only screen and (min-width: 768px) {
+    .location {
+        padding: 50px 20px 0px 0px;
+    }
+
+    .information {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+    }
+
+    .temp_information h2 {
+        font-size: 60px;
+    }
+
+    .search {
+        padding: 20px 50px;
+    }
 }
